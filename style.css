@@ -71,7 +71,7 @@ input {
 }
 
 .prayer-text {
-  white-space: pre-line;
+  white-space: pre-wrap;
   font-family: "Noto Sans Devanagari", "Mangal", Arial, sans-serif;
   font-size: 21px;
   line-height: 2;
