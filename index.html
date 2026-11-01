@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>My Daily Pujas</title>
+  <title>My Family Prayer Book</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -12,25 +12,62 @@
 <body>
 
   <header>
-    <h1>My Daily Pujas</h1>
-    <p>Choose a prayer from the list below</p>
+    <h1>My Family Prayer Book</h1>
+    <p>Choose a prayer or read a story</p>
   </header>
 
   <main>
 
-    <label for="prayerSelect">Select a Puja:</label>
+    <section class="prayers-section">
+      <h2>Prayers</h2>
 
-    <select id="prayerSelect">
-      <option value="">-- Choose a prayer --</option>
-    </select>
+      <label for="prayerSelect">
+        Choose a prayer:
+      </label>
 
-    <input
-      type="text"
-      id="searchInput"
-      placeholder="Search for a prayer..."
-    >
+      <select id="prayerSelect">
+        <option value="all">All Prayers</option>
+      </select>
 
-    <section id="prayerList"></section>
+      <label for="categorySelect">
+        Choose a category:
+      </label>
+
+      <select id="categorySelect">
+        <option value="all">All Categories</option>
+      </select>
+
+      <label for="subcategorySelect">
+        Choose a subcategory:
+      </label>
+
+      <select id="subcategorySelect">
+        <option value="all">All Subcategories</option>
+      </select>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for a prayer..."
+      >
+
+      <section id="prayerList"></section>
+    </section>
+
+
+    <section class="stories-section">
+      <h2>Stories</h2>
+
+      <label for="storySelect">
+        Choose a story:
+      </label>
+
+      <select id="storySelect">
+        <option value="all">All Stories</option>
+      </select>
+
+      <section id="storyList"></section>
+    </section>
 
   </main>
 
