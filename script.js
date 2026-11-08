@@ -989,7 +989,38 @@ function loadCategoryOptions() {
   });
 }
 
-function loadSubcategoryOptions() {
+function function loadSubcategoryOptions(selectedCategory) {
+  subcategorySelect.innerHTML =
+    '<option value="all">Choose a subcategory</option>';
+
+  if (selectedCategory === "all") {
+    subcategorySelect.disabled = true;
+    return;
+  }
+
+  const subcategories = [];
+
+  prayers.forEach(function (prayer) {
+    if (
+      prayer.category === selectedCategory &&
+      prayer.subcategory &&
+      !subcategories.includes(prayer.subcategory)
+    ) {
+      subcategories.push(prayer.subcategory);
+    }
+  });
+
+  subcategories.forEach(function (subcategory) {
+    const option = document.createElement("option");
+
+    option.value = subcategory;
+    option.textContent = subcategory;
+
+    subcategorySelect.appendChild(option);
+  });
+
+  subcategorySelect.disabled = false;
+} {
   subcategorySelect.innerHTML =
     '<option value="all">All Subcategories</option>';
 
