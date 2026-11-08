@@ -989,7 +989,7 @@ function loadCategoryOptions() {
   });
 }
 
-function function loadSubcategoryOptions(selectedCategory) {
+function loadSubcategoryOptions(selectedCategory) {
   subcategorySelect.innerHTML =
     '<option value="all">Choose a subcategory</option>';
 
@@ -1020,31 +1020,7 @@ function function loadSubcategoryOptions(selectedCategory) {
   });
 
   subcategorySelect.disabled = false;
-} {
-  subcategorySelect.innerHTML =
-    '<option value="all">All Subcategories</option>';
-
-  const subcategories = [];
-
-  prayers.forEach(function (prayer) {
-    if (
-      prayer.subcategory &&
-      !subcategories.includes(prayer.subcategory)
-    ) {
-      subcategories.push(prayer.subcategory);
-    }
-  });
-
-  subcategories.forEach(function (subcategory) {
-    const option = document.createElement("option");
-
-    option.value = subcategory;
-    option.textContent = subcategory;
-
-    subcategorySelect.appendChild(option);
-  });
 }
-
 function updatePrayerList() {
   const selectedPrayer = prayerSelect.value;
   const selectedCategory = categorySelect.value;
