@@ -1,6 +1,6 @@
 const prayers = [
   {
-    title: "Jai Ambe Gauri",
+    title: "जय अम्बे गौरी",
     category: "diwali",
     subcategory: "morning Diwali Pujas",
     text: `जय अम्बे गौरी, मैया जय श्यामा गौरी
@@ -111,7 +111,7 @@ const prayers = [
   },
 
   {
-    title: "Hanuman Chalisa",
+    title: "हनुमान चालीसा",
     category: "diwali",
     subcategory: "morning Diwali Pujas",
     text: `दोहा
@@ -234,7 +234,7 @@ const prayers = [
   },
 
   {
-    title: "Meera Baba Ki Puja",
+    title: "मीर बाबा की पूजा",
     category: "diwali",
     subcategory: "diwali After Sunset",
     text: `भोर हुई, गंगा नहाकर,
@@ -314,7 +314,7 @@ const prayers = [
   },
 
   {
-    title: "Ganesh Aarti",
+    title: "गणेश आरती",
     category: "diwali",
     subcategory: "diwali Evening",
     text: `जय गणेश, जय गणेश, जय गणेश देवा।
@@ -337,7 +337,7 @@ const prayers = [
   },
 
   {
-    title: "Lakshmi Aarti",
+    title: "लक्ष्मी आरती",
     category: "diwali",
     subcategory: "diwali Evening",
     text: `ॐ जय लक्ष्मी माता, मैया, जय लक्ष्मी माता।
@@ -385,7 +385,7 @@ const prayers = [
   },
 
   {
-    title: "Jai Jagdish Hare",
+    title: "जय जगदीश हरे",
     category: "diwali",
     subcategory: "diwali Evening",
     text: `ॐ जय जगदीश शिव हरे,
@@ -458,7 +458,7 @@ const prayers = [
 स्वामी जय जगदीश शिव हरे।`
   },
     {
-    title: "Saraswati Aarti",
+    title: "सरस्वती आरती",
     category: "diwali",
       subcategory: "diwali Evening",
     text: `ॐ जय सरस्वती माता, मैया जय सरस्वती माता।
@@ -487,7 +487,7 @@ const prayers = [
   },
 
   {
-    title: "Hanuman Aarti",
+    title: "हनुमान आरती",
     category: "diwali",
     subcategory: "diwali Evening",
     text: `आरती कीजै हनुमान लला की।
@@ -543,7 +543,7 @@ const prayers = [
   },
 
   {
-    title: "Ram Stuti",
+    title: "राम स्तुति",
     category: "diwali",
     subcategory: "diwali Evening",
     text: `श्री रामचन्द्र कृपालु भजु मन हरण भवभय दारुणम्।
@@ -571,7 +571,7 @@ const prayers = [
 मंजुल मंगल मूल, बाम अङ्ग फरकन लगे॥`
   },
   {
-    title: "Durga Chalisa",
+    title: "दुर्गा चालीसा",
     category: "Navratri",
     subcategory: "Navratri",
     text: `नमो नमो दुर्गे सुख करनी । नमो नमो अम्बे दुःख हरनी ॥
@@ -621,7 +621,7 @@ const prayers = [
 शत्रु नाशन कीजै चण्डिका । तुम बिन कौन हरै दुःख बिपदा ॥`
   },
   {
-    title: "Rudrashtak",
+    title: "रुद्राष्टक",
     category: "Navratri",
     subcategory: "Navratri",
     text: `नमामीशमीशान निर्वाणरूपं ।
@@ -660,7 +660,7 @@ const prayers = [
 ये पठन्ति नरा भक्त्या तेषां शम्भुः प्रसीदति ॥`
   },
   {
-    title: "Jai Ambe Gauri",
+    title: "जय अम्बे गौरी",
     category: "Navratri",
     subcategory: "Navratri",
     text: `जय अम्बे गौरी, मैया जय श्यामा गौरी।
@@ -691,7 +691,7 @@ const prayers = [
 कहत शिवानन्द स्वामी, सुख सम्पति पावे॥ ॐ जय अम्बे गौरी॥`
   },
   {
-    title: "Durga Aarti",
+    title: "दुर्गा आरती",
     category: "Navratri",
     subcategory: "Navratri",
     text: `हे भक्त वत्सल माती तुमको बार-बार प्रणाम है,
@@ -735,7 +735,7 @@ const prayers = [
 हम सब उतारें तेरी आरती, जगदम्बे हम सब उतारें तेरी आरती।`
   },
   {
-    title: "Hanuman Chalisa",
+    title: "हनुमान चालीसा",
     category: "Navratri",
     subcategory: "Navratri",
     text: `श्रीगुरु चरन सरोज रज निज मनु मुकुरु सुधारि ।
@@ -791,7 +791,7 @@ const prayers = [
 जय जय हनुमान ॥`
   },
   {
-    title: "Gayatri Mantra",
+    title: "गायत्री मंत्र",
     category: "Navratri",
     subcategory: "Navratri",
     text: `ॐ भूर्भुवः स्वः ।
@@ -799,7 +799,7 @@ const prayers = [
 धियो यो नः प्रचोदयात ॥`
   },
   {
-    title: "Ram Stuti",
+    title: "राम स्तुति",
     category: "Navratri",
     subcategory: "Navratri",
     text: `श्री रामचन्द्र कृपालु भजु मन हरण भवभय दारुणम् ।
@@ -814,13 +814,13 @@ const prayers = [
 मम हृदय कंज निवास कुरु, कामादि खल दल गंजनम् ॥ ५ ॥`
   },
   {
-    title: "bhoglagao prabhuji",
+    title: "भोग लगाओ प्रभु जी",
     category: "Navratri",
     subcategory: "Navratri",
     text: ' आओ प्रभु जी भोग लगाओ, प्रभु जी मेरा भोग करो स्वीकार प्रभु, ये सब वस्तु आपकी, आपई के वस्तु स्वामी, आपई को अर्पित जामे मेरा का जावे, ऐसा भोग लगाओ मेरे प्रभु जी सब अमृत हो जाए, प्रभु जी सब अमृत हो जावे। बलन के बेसु शुदामा के तन दुलरुची भोग लगायो, दुर्योधन के मेवा त्यागी साग विधुर घर खायो, प्रभु जी साग विधुर घर खायो। आओ प्रभु जी भोग लगाओ, प्रभु जी मेरा भोग करो स्वीकार प्रभु जी, ये सब वस्तु आपकी, राम आई, घनश्याम आई, सीता राम आई, हनुमान आई, महादेव आइए,सारे देव आई, मेरे भोजन का भोग लगा जाई, मेरे भोजन का भोग लगा जाई, मेरे भोजन का भोग लगा जाइए.'
   },
   {
-    title: "Tvameva Mata",
+    title: "तुम्हें माता",
     category: "Navratri",
     subcategory: "Navratri",
     text: `त्वमेव माता च पिता त्वमेव ।
@@ -829,7 +829,7 @@ const prayers = [
 त्वमेव सर्वं मम देव देव ॥`
   },
   {
-    title: "hanuman ashtak",
+    title: "हनुमान अष्टक",
     category: "Navratri",
     subcategory: "Navratri",
     text: `बाल समय रवि भक्षि लियो तब,
